@@ -23,7 +23,6 @@
     align-items: center;
     justify-items: center;
     font-size: 1.5em;
-    margin-top: 20px;
   }
 
 .nav {
@@ -33,7 +32,7 @@
     padding: 20px;
 }
 
-.nav__header {
+.header__home {
     color: black;
     background-color: yellow;
     text-decoration: none;
