@@ -27,7 +27,7 @@
     margin: 0;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1em;
     display: float;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/grey_wash_wall.png");
 }
@@ -141,15 +141,20 @@
   z-index: 1;
   right: 0;
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
   margin-right: 50px;
   overflow-x: hidden;
   text-align: center;
 }
 
+.nav__sidebar {
+  width: 180px;
+  text-align: center;
+}
+
 .sidebar__header {
   color:#4e463d;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 .sidebar__link {
