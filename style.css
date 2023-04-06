@@ -177,7 +177,6 @@
   box-shadow: gray 4px 4px 10px 2px;
   padding: 20px;
   margin: 30px;
-  margin-right: 200px;
   color: #4f4a3b
 }
 
@@ -317,7 +316,7 @@ h3 {
 }
 
 /* responsive layout */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .nav__container a {display: none;}
   .nav__container a.nav__icon {
     float: left;
