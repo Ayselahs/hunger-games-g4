@@ -108,16 +108,22 @@
 
 .jumbotron__header {
   color: white;
-  font-size: 3.5em;
+  font-size: 5em;
 }
 
 .jumbotron__text {
   font-size: 2em;
   align-self: center;
-  background-color: black;
-  color: white;
   margin: 20px;
   padding: 20px 40px;
+  animation: jumbo-text 4s linear both;
+}
+
+@keyframes jumbo-text {
+  0% {background-color: none; color: none }
+  25% {background-color: black; color: none;}
+  50% {background-color: black; color: black;}
+  100% {background-color: black; color: white;}
 }
 
 .jumbotron__btn {
