@@ -24,26 +24,63 @@
 }
 
 .body {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  box-sizing: border-box;
+=======
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   margin: 0;
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
   display: float;
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+  display: float;
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/grey_wash_wall.png");
 }
 
 .header {
   background-color: #c86203;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+=======
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   display: flex;
   align-items: flex-end;   
   color: black;
   align-items: center;
   justify-items: space-around;
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   font-size: 1em;
   height: 60px;
 }
 
 .nav__container {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  display: flex; 
+  width: 100%;
+  flex-direction: row;
+  padding: 15px; 
+  margin-right: 15px; 
+  font-size: .75em; 
+=======
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   min-height: 60px;
   display: flex;
   justify-content: space-between;
@@ -53,6 +90,9 @@
   padding-left: 15px;
   padding-right: 15px;
   font-size: .75em;
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
 }
 
 .nav__home {
@@ -61,6 +101,7 @@
 
 .nav__link {
   float: right;
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 }
 
 .nav__link, .nav__home {
@@ -152,9 +193,28 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.sidebar__nav {
+  width: 200px;
+  position: fixed; 
+  box-shadow: var(--darkgray) 4px 4px 10px 4px;
+}
+
+.sidebar__nav ul {
+  list-style-type: none;
+  font-size: 14px;
+  margin-left: -25px;
+=======
 .sidebar__header {
   color: #4e463d;
   font-size: 1.25em;
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+.sidebar__header {
+  color: #4e463d;
+  font-size: 1.25em;
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 }
 
 .sidebar__link {
@@ -170,6 +230,43 @@
   transition: 450ms;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.intro {
+  display: grid; 
+  grid-area: main; 
+  grid-column: 2 / 6;
+  grid-row: 1; 
+  height: auto; 
+}
+
+.info {
+  display: grid; 
+  grid-area: main; 
+  grid-column: 2 / 6;
+  grid-row: 2 / 3;
+}
+
+.info__container {
+  display: flexbox;
+  flex-direction: row;
+}
+
+.cast {
+  display: grid; 
+  grid-area: main; 
+  grid-column: 2 / 6; 
+  grid-row: 4 / 5;
+}
+.cast__container {
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: row; 
+  overflow: hidden;
+  justify-content: center;
+=======
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 .main {
   display: inline-block;
   width: 70%;
@@ -187,6 +284,10 @@
 .movie-poster {
   float: right;
   padding: 20px;
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 }
 
 .cast__gallery {
@@ -203,12 +304,24 @@
   width: 100%;
   height: auto;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.cast__caption {
+  text-align: center; 
+=======
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   
 .cast__gallery a {
   text-decoration: none;
   color: #bf412a;
   text-align: center;
   font-size: .8em;
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 }
   
 .clearfix:after {
@@ -321,6 +434,69 @@ h3 {
 }
   
 /* responsive layout */
+<<<<<<< HEAD
+<<<<<<< HEAD
+@media screen and (max-width: 600px) {
+
+.body {
+  max-width: 500px;
+}
+
+.nav__container a {display: none;}
+.nav__container a.nav__icon {
+  display: inline-block;
+}
+
+.nav__container.responsive {position: relative;}
+.nav__container.responsive .nav__icon {
+  position: absolute;
+  top: 0;
+}
+.nav__container.responsive a {
+  display: block;
+  text-align: left;
+}
+
+.sidebar__container {
+  display: none;
+}
+
+.jumbotron {
+  max-width: 100%;
+}
+
+.cast__gallery {
+  padding: 5px;
+  width: 100px;
+  height: auto;
+  margin: 0 10px 20px 10px;
+  box-shadow: var(--light-gray) 4px 4px 10px 2px; 
+}
+  
+.cast__gallery img {
+  width: 100px;
+  height: auto;
+}
+.plot__image1 {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.plot__image2 {
+  width: 150px;
+  float: right;
+  padding-left: 10px;
+}
+
+.plot__image3 {
+  width: 200px;
+  float: left; 
+  padding-right: 10px;
+}
+=======
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
 @media screen and (max-width: 400px) {
   .nav__container a {display: none;}
   .nav__container a.nav__icon {
@@ -366,9 +542,20 @@ h3 {
     border-top-right-radius: 3px;
   }
   
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
 }
   
 @media screen and (max-width: 1112px) {
+<<<<<<< HEAD
+  .sidebar__container {
+  display: none;
+=======
+=======
+}
+  
+@media screen and (max-width: 1112px) {
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   .sidebar {
     display: none;
   }
@@ -378,5 +565,9 @@ h3 {
     height: auto;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+<<<<<<< HEAD
+>>>>>>> 115d4c46d3cfb5b9c78762d3bba64565bff7eda8
+=======
+>>>>>>> ac4e25bc9a248e1b80f68203af9222d4a1c0ea49
   }
 }
