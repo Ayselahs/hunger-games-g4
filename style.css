@@ -106,8 +106,13 @@
   padding: 20px;
 }
 
-.jumbotron__text {
+.jumbotron__header {
+  color: white;
   font-size: 3.5em;
+}
+
+.jumbotron__text {
+  font-size: 2em;
   align-self: center;
   background-color: black;
   color: white;
