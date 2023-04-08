@@ -359,6 +359,19 @@ h3 {
   .jumbotron {
     max-width: 100%;
   }
+
+  .jumbotron__header {
+    color: white;
+    font-size: 2em;
+  }
+  
+  .jumbotron__text {
+    font-size: 1em;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+    animation: jumbo-text 4s linear both;
+  }
     
   .main__row {
     -webkit-flex-direction: column;
@@ -389,5 +402,18 @@ h3 {
     height: auto;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+  }
+
+  .jumbotron__header {
+    color: white;
+    font-size: 2.5em;
+  }
+  
+  .jumbotron__text {
+    font-size: 1.5em;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+    animation: jumbo-text 4s linear both;
   }
 }
