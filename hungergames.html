@@ -1,144 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>The Hunger Games</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-</head>
-<body class="body">
-    <header class="header">
-        <div class="nav__container">
-            <a class="nav__home" href="index.html">HOME</a>
-            <nav class="nav">
-                <a class="nav__link" href="mockj-2.html"
-                    >Mockingjay Part 2</a
-                >
-                <a class="nav__link" href="mockj-1.html"
-                    >Mockingjay Part 1</a
-                >
-                <a class="nav__link" href="catchingfire.html"
-                    >Catching Fire</a
-                >
-                <a class="nav__link" href="hungergames.html"
-                    >The Hunger Games</a
-                >
-                <a
-                    class="nav__icon"
-                    href="javascript:void(0)"
-                    onclick="myFunction()"
-                    ><i class="fa fa-bars"></i
-                ></a>
-            </nav>
-        </div>
-    </header>
-     <main class="main">
-        <div class="column__side">
-            <div class="sidebar">
-                <h3 class="sidebar__header">The Quadrilogy</h3>
-                <nav class="nav__sidebar">
-                    <a href="hungergames.html" class="sidebar__link">The Hunger Games</a>
-                    <a href="catchingfire.html" class="sidebar__link">Catching Fire</a>
-                    <a href="mockj-1.html" class="sidebar__link">Mockingjay Part 1</a>
-                    <a href="mockj-2.html" class="sidebar__link">Mockingjay Part 2</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Hunger Games</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="nav__container">
+                <a class="nav__home" href="index.html">HOME</a>
+                <nav class="nav">
+                    <a class="nav__link" href="mockj-2.html"
+                        >Mockingjay Part 2</a
+                    >
+                    <a class="nav__link" href="mockj-1.html"
+                        >Mockingjay Part 1</a
+                    >
+                    <a class="nav__link" href="catchingfire.html"
+                        >Catching Fire</a
+                    >
+                    <a class="nav__link" href="hungergames.html"
+                        >The Hunger Games</a
+                    >
+                    <a
+                        class="nav__icon"
+                        href="javascript:void(0)"
+                        onclick="myFunction()"
+                        ><i class="fa fa-bars"></i
+                    ></a>
                 </nav>
             </div>
-        </div>
-         <section class="intro">
-             <h1 class="intro__heading">The Hunger Games</h1>
-         </section>
-         <section class="info">
-             <div class="info__container">
-                 <p class="info__text">The Hunger Games is a film directed by Gary Ross, based on the 2008 novel of the same name written by Suzanne Collins. The Hunger Games is the first installment of the film series. While the book is a trilogy, the film series is a quadrilogy (4 parts).</p>
-                 <p class="info__text">The Hunger Games was released on March 23, 2012. The film grossed $67.3 million, setting opening day records for a non-sequel film. The film was deemed a massive success by grossing more than $694 million worldwide.</p>
-             </div>
-         </section>
-         <section class="cast">
-             <h2 class="cast__subhead">Cast</h2>
-             <div class="cast__container">
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/katniss.png" alt="Jennifer Lawrence as Katniss Everdeen">
-                     <p class="cast__caption">Jennifer Lawrence as Katniss Everdeen</p>
-                     </p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/primrose.png" alt="Willow Shields as Primrose Everdeen">
-                     <p class="cast__caption">Willow Shields as Primrose Everdeen</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/haymitch.png" alt="Woody Harrelson as Haymitch Abernathy">
-                     <p class="cast__caption">Woody Harrelson as Haymitch Abernathy</p>
-                     </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/peeta.png" alt="Josh Hutcherson as Peeta Mellark">
-                     <p class="cast__caption">Josh Hutcherson as Peeta Mellark</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/rue.png" alt="Amandla Stenberg as Rue">
-                     <p class="cast__caption">Amandla Stenberg as Rue</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/effie.png" alt="Elizabeth Banks as Effie Trinket">
-                     <p class="cast__caption">Elizabeth Banks as Effie Trinket</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/gale.png" alt="Liam Hemsworth as Gale Hawthorne">
-                     <p class="cast__caption">Liam Hemsworth as Gale Hawthorne</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/cinna.jpg" alt="Lenny Kravitz as Cinna">
-                     <p class="cast__caption">Lenny Kravitz as Cinna</p>
-                 </div>
-                 <div class="cast__gallery">
-                     <img class="cast__img" src="images/caesar.png" alt="Stanley Tucci as Caesar Flickerman">
-                     <p class="cast__caption">Stanley Tucci as Caesar Flickerman</p>
-                 </div>
-             </div>
-         </section>
-         <div class="clearfix"></div>
-         <section class="plot">
-             <div class="plot__container">
-                 <h2 class="plot__subhead">Plot</h2>
-                 <p class="plot__text">What was once North America has became the nation of Panem. Panem is divided into 12 districts, ruled by the Capitol. After a failed revolt, the Capitol instituted the Hunger Games as both punishment and a reminder of the failed revolution.</p>
-                 <p class="plot__text">Each district selects one girl and one boy between the ages of 12 and 18 to fight in the Hunger Games until there is only one survivor. The event is televised and all of the Capitol's citizens, as well as those who live in the districts watch.</p>
-                 <img class="plot__image1" alt="Katniss volunteers to take her sisters place as Tribute." src="images/volunteer.jpg">
-                 <p class="plot__text">After Katniss Everdeen's little sister, Primrose, is randomly chosen, sixteen-year-old Katniss volunteers as tribute to take her place. Katniss is joined by Peeta Mellark and their mentor, Haymitch Abernathy. Haymitch is the only living victor from District 12. After saying goodbye to her family, Katniss, Peeta, and Haymitch board the train to the Capitol.</p>
-                 <p class="plot__text">Upon arriving to the Capitol, the tributes are introduced to their stylists. This is where Katniss meets Cinna, who tells her his job is to help her make a good impression with potential sponsors. Sponsorship allows the mentors to send useful tools to the tributes during the Games to help them. These gifts were provided by sponsors - rich Capitol citizens and family and friends from the tribute's district. Sponsorships came from first impressions during the Tribute parade, training scores, interviews, performance during the Games, amongst other factors. Essentially, it was a way for the Capitol's citizens to bet on the tributes.</p>
-                 <p class="plot__text">During their initial interview, Peeta confesses that he has had a crush on Katniss since they were little kids. Haymitch concots a plan of having Katniss and Peeta act as a loving couple in the arena to get sympathy from the audience and to gain sponsors.</p>
-                 <p class="plot__text">As Katniss prepares to enter the arena, Cinna gives her a mockingjay pin that Primrose gave her when she volunteered to take her place. When the Games begin, Katniss listens to Haymitch's advice and runs away from the cornucopia of supplies and finds safety on higher ground. She loses track of Peeta as she ventures deeper into the woods. She takes refuge in a tree and witnesses a tribute being killed by a group of tributes from Districts 1 and 2, known as the Careers, and Peeta. At the end of the first day, about half of the tributes are dead.</p> 
-                 <img class="plot__image2" alt="Katniss forms an alliance with Rue." src="images/KatnissRue.png">
-                 <p class="plot__text">Katniss survives by staying hidden until the gamemakers engineer a fire that send her into danger. Katniss gets hit with shrapnel from the fire as she is running away from the group of Careers. She is chased by a tree where she takes refuge. A young tribute, Rue, cares for Katniss as she recovers. Rue and Katniss form a special bond and plan to sabogtage the Careers. Unfortunately, Rue is killed.</p>
-                 <p class="plot__text">To continue the love story angle, Haymitch convinces the gamemakers to change the rules to allow two winners if they are from the same District. Soon after, Katniss finds Peeta badly wounded. She nurses him back to health, but he desperately needs medicine. Katniss risks her life by going back to the cornucopia, which leaves her completely exposed, to get the medicine for Peeta.</p>
-                 <img class="plot__image3" alt="Peeta and Katniss about to eat the poison berries." src="images/berries.jpeg">
-                 <p class="plot__text">Peeta and Katniss begin to work together and soon its them and one other tribute left. The gamemakers chase all three tributes back to the cornucopia with giant dogs. After battling it out, Peeta throws Cato to the dogs, leaving just Peeta and Katniss as the two survivors. The Capitol then reneges their decision of allowing two winners from the same district. Peeta and Katniss decide to eat poison berries together so that way there are no winners. This forces the Capitol to change its mind again, and Peeta and Katniss are declared winners.</p>
-             </div>
-         </section>
-         <section class="trailer">
-            <h2 class="trailer__subhead">Trailer</h2>
-            <div class="vid-wrapper">
-                <iframe
-                    src="https://www.youtube.com/embed/mfmrPu43DF8"
-                ></iframe>
+        </header>
+        <main class="main">
+            <div class="column__side">
+                <div class="sidebar">
+                    <h3 class="sidebar__header">The Quadrilogy</h3>
+                    <nav class="nav__sidebar">
+                        <a href="hungergames.html" class="sidebar__link"
+                            >The Hunger Games</a
+                        >
+                        <a href="catchingfire.html" class="sidebar__link"
+                            >Catching Fire</a
+                        >
+                        <a href="mockj-1.html" class="sidebar__link"
+                            >Mockingjay Part 1</a
+                        >
+                        <a href="mockj-2.html" class="sidebar__link"
+                            >Mockingjay Part 2</a
+                        >
+                    </nav>
+                </div>
             </div>
-        </section>
-     </main>
-     <footer class="footer">
-         <p class="footer__text">
-         <span id="year"></span>This website was created by Ayselah Smith, Jayce McHargue, Patrick Wright & Sophie Schnaper solely for educational purposes. All information and images sourced from <a href="https://www.imdb.com/title/tt1392170/">IMDB</a>.
-         </p>
-     </footer>
-     <script>
-         document.getElementById('year').textContent= new Date().getFullYear();
-         function myFunction() {
-   var x = document.getElementById("nav__container"); 
-   if (x.className === "nav__container") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav__container";
-  }
-}
-    </script>
-</body>
+            <section class="intro">
+                <h1 class="intro__heading">The Hunger Games</h1>
+            </section>
+            <section class="info">
+                <div class="info__container">
+                    <p class="info__text">
+                        The Hunger Games is a film directed by Gary Ross, based
+                        on the 2008 novel of the same name written by Suzanne
+                        Collins. The Hunger Games is the first installment of
+                        the film series. While the book is a trilogy, the film
+                        series is a quadrilogy (4 parts).
+                    </p>
+                    <p class="info__text">
+                        The Hunger Games was released on March 23, 2012. The
+                        film grossed $67.3 million, setting opening day records
+                        for a non-sequel film. The film was deemed a massive
+                        success by grossing more than $694 million worldwide.
+                    </p>
+                </div>
+            </section>
+            <section class="cast">
+                <h2 class="cast__subhead">Cast</h2>
+                <div class="cast__container">
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/katniss.png"
+                            alt="Jennifer Lawrence as Katniss Everdeen"
+                        />
+                        <p class="cast__caption">
+                            Jennifer Lawrence as Katniss Everdeen
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/primrose.png"
+                            alt="Willow Shields as Primrose Everdeen"
+                        />
+                        <p class="cast__caption">
+                            Willow Shields as Primrose Everdeen
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/haymitch.png"
+                            alt="Woody Harrelson as Haymitch Abernathy"
+                        />
+                        <p class="cast__caption">
+                            Woody Harrelson as Haymitch Abernathy
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/peeta.png"
+                            alt="Josh Hutcherson as Peeta Mellark"
+                        />
+                        <p class="cast__caption">
+                            Josh Hutcherson as Peeta Mellark
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/rue.png"
+                            alt="Amandla Stenberg as Rue"
+                        />
+                        <p class="cast__caption">Amandla Stenberg as Rue</p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/effie.png"
+                            alt="Elizabeth Banks as Effie Trinket"
+                        />
+                        <p class="cast__caption">
+                            Elizabeth Banks as Effie Trinket
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/gale.png"
+                            alt="Liam Hemsworth as Gale Hawthorne"
+                        />
+                        <p class="cast__caption">
+                            Liam Hemsworth as Gale Hawthorne
+                        </p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/cinna.jpg"
+                            alt="Lenny Kravitz as Cinna"
+                        />
+                        <p class="cast__caption">Lenny Kravitz as Cinna</p>
+                    </div>
+                    <div class="cast__gallery">
+                        <img
+                            class="cast__img"
+                            src="images/caesar.png"
+                            alt="Stanley Tucci as Caesar Flickerman"
+                        />
+                        <p class="cast__caption">
+                            Stanley Tucci as Caesar Flickerman
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <section class="plot">
+                <div class="plot__container">
+                    <h2 class="plot__subhead">Plot</h2>
+                    <p class="plot__text">
+                        What was once North America has became the nation of
+                        Panem. Panem is divided into 12 districts, ruled by the
+                        Capitol. After a failed revolt, the Capitol instituted
+                        the Hunger Games as both punishment and a reminder of
+                        the failed revolution.
+                    </p>
+                    <p class="plot__text">
+                        Each district selects one girl and one boy between the
+                        ages of 12 and 18 to fight in the Hunger Games until
+                        there is only one survivor. The event is televised and
+                        all of the Capitol's citizens, as well as those who live
+                        in the districts watch.
+                    </p>
+                    <img
+                        class="plot__image1"
+                        alt="Katniss volunteers to take her sisters place as Tribute."
+                        src="images/volunteer.jpg"
+                    />
+                    <p class="plot__text">
+                        After Katniss Everdeen's little sister, Primrose, is
+                        randomly chosen, sixteen-year-old Katniss volunteers as
+                        tribute to take her place. Katniss is joined by Peeta
+                        Mellark and their mentor, Haymitch Abernathy. Haymitch
+                        is the only living victor from District 12. After saying
+                        goodbye to her family, Katniss, Peeta, and Haymitch
+                        board the train to the Capitol.
+                    </p>
+                    <p class="plot__text">
+                        Upon arriving to the Capitol, the tributes are
+                        introduced to their stylists. This is where Katniss
+                        meets Cinna, who tells her his job is to help her make a
+                        good impression with potential sponsors. Sponsorship
+                        allows the mentors to send useful tools to the tributes
+                        during the Games to help them. These gifts were provided
+                        by sponsors - rich Capitol citizens and family and
+                        friends from the tribute's district. Sponsorships came
+                        from first impressions during the Tribute parade,
+                        training scores, interviews, performance during the
+                        Games, amongst other factors. Essentially, it was a way
+                        for the Capitol's citizens to bet on the tributes.
+                    </p>
+                    <p class="plot__text">
+                        During their initial interview, Peeta confesses that he
+                        has had a crush on Katniss since they were little kids.
+                        Haymitch concots a plan of having Katniss and Peeta act
+                        as a loving couple in the arena to get sympathy from the
+                        audience and to gain sponsors.
+                    </p>
+                    <p class="plot__text">
+                        As Katniss prepares to enter the arena, Cinna gives her
+                        a mockingjay pin that Primrose gave her when she
+                        volunteered to take her place. When the Games begin,
+                        Katniss listens to Haymitch's advice and runs away from
+                        the cornucopia of supplies and finds safety on higher
+                        ground. She loses track of Peeta as she ventures deeper
+                        into the woods. She takes refuge in a tree and witnesses
+                        a tribute being killed by a group of tributes from
+                        Districts 1 and 2, known as the Careers, and Peeta. At
+                        the end of the first day, about half of the tributes are
+                        dead.
+                    </p>
+                    <img
+                        class="plot__image2"
+                        alt="Katniss forms an alliance with Rue."
+                        src="images/KatnissRue.png"
+                    />
+                    <p class="plot__text">
+                        Katniss survives by staying hidden until the gamemakers
+                        engineer a fire that send her into danger. Katniss gets
+                        hit with shrapnel from the fire as she is running away
+                        from the group of Careers. She is chased by a tree where
+                        she takes refuge. A young tribute, Rue, cares for
+                        Katniss as she recovers. Rue and Katniss form a special
+                        bond and plan to sabogtage the Careers. Unfortunately,
+                        Rue is killed.
+                    </p>
+                    <p class="plot__text">
+                        To continue the love story angle, Haymitch convinces the
+                        gamemakers to change the rules to allow two winners if
+                        they are from the same District. Soon after, Katniss
+                        finds Peeta badly wounded. She nurses him back to
+                        health, but he desperately needs medicine. Katniss risks
+                        her life by going back to the cornucopia, which leaves
+                        her completely exposed, to get the medicine for Peeta.
+                    </p>
+                    <img
+                        class="plot__image3"
+                        alt="Peeta and Katniss about to eat the poison berries."
+                        src="images/berries.jpeg"
+                    />
+                    <p class="plot__text">
+                        Peeta and Katniss begin to work together and soon its
+                        them and one other tribute left. The gamemakers chase
+                        all three tributes back to the cornucopia with giant
+                        dogs. After battling it out, Peeta throws Cato to the
+                        dogs, leaving just Peeta and Katniss as the two
+                        survivors. The Capitol then reneges their decision of
+                        allowing two winners from the same district. Peeta and
+                        Katniss decide to eat poison berries together so that
+                        way there are no winners. This forces the Capitol to
+                        change its mind again, and Peeta and Katniss are
+                        declared winners.
+                    </p>
+                </div>
+            </section>
+            <section class="trailer">
+                <h2 class="trailer__subhead">Trailer</h2>
+                <div class="vid-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/mfmrPu43DF8"
+                    ></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">
+                This website was created by Ayselah Smith, Jayce McHargue,
+                Patrick Wright &amp Sophie Schnaper solely for educational
+                purposes. for educational purposes. All information and images
+                sourced from
+                <a href="https://www.imdb.com/title/tt1392170/" target="_blank"
+                    >IMDB</a
+                >
+                and
+                <a
+                    href="https://thehungergames.fandom.com/wiki/The_Hunger_Games_Wiki"
+                    target="_blank"
+                    >Wikipedia</a
+                >.
+            </p>
+        </footer>
+        <script>
+            document.getElementById("year").textContent =
+                new Date().getFullYear();
+            function myFunction() {
+                var x = document.getElementById("nav__container");
+                if (x.className === "nav__container") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav__container";
+                }
+            }
+        </script>
+    </body>
 </html>

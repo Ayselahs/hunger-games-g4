@@ -195,6 +195,10 @@
   text-align: center;
 }
 
+.intro__heading {
+  text-align: center;
+}
+
 .movie-poster {
   float: right;
   padding: 20px;
@@ -232,26 +236,30 @@
   display: flexbox;
   flex-direction: row; 
   flex-wrap: wrap;
+  
+}
+
+.plot-margin {
+  margin-bottom: 100px;
 }
   
 /* Image Grid */
 .cast__img_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  grid-template-columns: 1fr;
+  justify-items: center;
   align-items: center;
 }
   
 .cast__img_grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
   
 .cast__img_grid img {
-  width: 50%;
-  height: auto;
+  padding: 0;
+  margin: 0;
+  max-width: 50%; /* set the maximum width to 100% */
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -261,12 +269,7 @@
   font-size: 1rem;
 }
   
-/* Trailer */
-.trailer {
-  margin-top: 50px;
-}
-  
-/* Responsive Video */
+/* Responsive Trailer */
 .vid-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -333,7 +336,7 @@ h3 {
   
 /* responsive layout */
 @media screen and (max-width: 400px) {
-  .nav__container a {display: none;}
+ /* .nav__container a {display: none;}
   .nav__container a.nav__icon {
     float: left;
     display: block;
@@ -344,7 +347,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 0;
-  }
+  } */
     
   .nav__container.responsive a {
     float: none;
@@ -382,26 +385,13 @@ h3 {
     width: 49.99999%;
     margin: 6px 0;
   }
-  
-  .cast__img_grid img {
-    width: 50%;
-    height: auto;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-  }
+
   
 }
   
 @media screen and (max-width: 1112px) {
   .sidebar {
     display: none;
-  }
-  
-  .cast__img_grid img {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
   }
 
   .jumbotron__header {
@@ -415,5 +405,38 @@ h3 {
     margin: 20px;
     padding: 10px;
     animation: jumbo-text 4s linear both;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cast__img_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cast__img_grid {
+    text-align: center;
+  }
+}
+
+.cast__img_grid img {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.cast__caption {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .cast__img_container {
+    display: grid;
+  }
+  .cast__img_grid {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
   }
 }
